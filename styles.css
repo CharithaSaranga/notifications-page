@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: hsl(219, 12%, 42%);
+    background-color: hsl(210, 60%, 98%);
+    font-size: 16px;
+}
+
+.container {
+    max-width: 720px;
+    margin: 80px auto;
+}
+
+.all {
+    background-color: white;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px -10px #a8a7a3;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+.time {
+    margin-top: 3px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title-text {
+    color: hsl(224, 21%, 14%);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.number {
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(219, 14%, 63%);
+}
+
+a:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.single {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 12px 0;
+}
+
+.single.hidden {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+}
+
+.pro-pic img {
+    width: 50px;
+    margin-right: 1.3rem;
+}
+
+a.name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    margin-right: 3px;
+}
+
+a.name:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+a.post {
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+}
+
+a.post:hover {
+    color: hsl(219, 85%, 26%);
+    ;
+}
+
+a.group {
+    font-weight: 800;
+    color: hsl(219, 85%, 26%);
+}
+
+.dot {
+    display: inline-block;
+    background-color: hsl(1, 90%, 64%);
+    width: 7px;
+    height: 7px;
+    border-radius: 6px;
+    margin-left: 6px;
+    margin-bottom: 2px;
+
+}
+
+.message {
+    border: 2px solid hsl(205, 33%, 90%);
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.message:hover {
+    background-color: hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+
+.with-message {
+    align-items: flex-start;
+}
+
+
+.img-box img {
+    align-items: flex-end;
+    width: 50px;
+    margin-left: 180px;
+}
+
+.img-box img:hover {
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 20px auto;
+    }
+
+    .all {
+        margin: 12px;
+        padding: 25px 15px 0;
+
+    }
+
+    .title-text {
+        font-size: 20px;
+
+    }
+
+    .number {
+        padding: 1px 10px;
+        margin-left: 5px;
+    }
+
+    .message {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .img-box img {
+        margin-left: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+}
